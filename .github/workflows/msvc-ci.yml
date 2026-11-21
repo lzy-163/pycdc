@@ -27,3 +27,4 @@ jobs:
         with:
           name: pycdc-release
           path: build\Release\*.exe
+          if-no-files-found: warn
